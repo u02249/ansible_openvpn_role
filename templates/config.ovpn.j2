@@ -1,0 +1,21 @@
+client
+nobind
+dev tun
+key-direction 1
+remote-cert-tls server
+remote {{remote_server}} {{remote_port}} udp
+<key>
+{{openvpn_key}}
+</key>
+<cert>
+{{openvpn_cert}}
+</cert>
+<ca>
+{{openvpn_ca}}
+</ca>
+<tls-auth>
+{{openvpn_tls}}
+</tls-auth>
+auth-nocache
+comp-lzo
+reneg-sec 259200

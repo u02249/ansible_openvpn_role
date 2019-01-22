@@ -1,0 +1,4 @@
+---
+  remote_server: 8.8.8.8
+  remote_port: 5555
+  proto: udp
